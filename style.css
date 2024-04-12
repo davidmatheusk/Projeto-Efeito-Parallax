@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: rgb(184, 184, 184)
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.623);
+}
+
+header > h1{
+    margin-bottom: 20px;
+    font-variant: small-caps;
+}
+
+header > a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+header > a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section > pre{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+section.imagem01{
+    background-image: url(/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.486);
+   
+}
+
+section.imagem02{
+    background-image: url(/imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.486);
+}
+
+pre#img{
+    background-color: rgba(0, 0, 0, 0.13);
+    color: white;
+    width: 300px;
+    margin-left: 20px;
+    text-shadow: 2px 2px 0px black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    padding: 8px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 8px;
+    transition-duration: 0.1s;
+}
